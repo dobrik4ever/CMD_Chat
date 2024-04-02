@@ -8,5 +8,5 @@ SERVER = threading.Thread(target=server.server, args=server.port_Valeriia)
 CLIENT.start()
 SERVER.start()
 
-while True:
-    pass
+CLIENT.join()
+SERVER.join()
