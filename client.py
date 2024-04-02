@@ -1,6 +1,6 @@
 import socket
 address_Valeriia = ('192.168.178.26', 123)
-address_Sergei = ('192.168.178.25', 124)
+address_Sergei   = ('192.168.178.25', 124)
 
 def client(ip:str, port:int):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
