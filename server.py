@@ -1,7 +1,7 @@
 import socket
 
-port_Valeriia = 123
-port_Sergei   = 124
+port_Valeriia = (124,)
+port_Sergei   = (123,)
 
 def server(port: int):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
